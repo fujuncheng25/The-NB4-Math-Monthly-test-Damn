@@ -5,7 +5,17 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "douban_url": null,
+      "douban_title": null,
+      "douban_average": "9.1",
+      "douban_votes": "1299",
+      "douban_source": "search",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9787520107921",
+      "search_html": "/workspaces/The-NB4-Math-Monthly-test-Damn/douban_html_logs/search_9787520107921.html"
+    }
   },
   "9787010130033": {
     "ISBN": "9787010130033",
@@ -13,7 +23,17 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "douban_url": null,
+      "douban_title": null,
+      "douban_average": "9.6",
+      "douban_votes": "2282",
+      "douban_source": "search",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9787010130033",
+      "search_html": "/workspaces/The-NB4-Math-Monthly-test-Damn/douban_html_logs/search_9787010130033.html"
+    }
   },
   "9787532765522": {
     "ISBN": "9787532765522",
@@ -21,7 +41,17 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "douban_url": null,
+      "douban_title": null,
+      "douban_average": "7.7",
+      "douban_votes": "1194",
+      "douban_source": "search",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9787532765522",
+      "search_html": "/workspaces/The-NB4-Math-Monthly-test-Damn/douban_html_logs/search_9787532765522.html"
+    }
   },
   "9787508691664": {
     "ISBN": "9787508691664",
@@ -29,7 +59,17 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "douban_url": null,
+      "douban_title": null,
+      "douban_average": "8.2",
+      "douban_votes": "4174",
+      "douban_source": "search",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9787508691664",
+      "search_html": "/workspaces/The-NB4-Math-Monthly-test-Damn/douban_html_logs/search_9787508691664.html"
+    }
   },
   "9787218155913": {
     "ISBN": "9787218155913",
@@ -37,7 +77,17 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "douban_url": null,
+      "douban_title": null,
+      "douban_average": "8.0",
+      "douban_votes": "166",
+      "douban_source": "search",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9787218155913",
+      "search_html": "/workspaces/The-NB4-Math-Monthly-test-Damn/douban_html_logs/search_9787218155913.html"
+    }
   },
   "9781911216865": {
     "ISBN": "9781911216865",
@@ -45,7 +95,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=50+Things+to+Do+with+a+Penknife",
+      "search_html": "/workspaces/The-NB4-Math-Monthly-test-Damn/douban_html_logs/search_9781911216865_title.html"
+    }
   },
   "9781250047236": {
     "ISBN": "9781250047236",
@@ -53,7 +109,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=55+Successful+Harvard+Law+School+Application+Essays",
+      "search_html": "/workspaces/The-NB4-Math-Monthly-test-Damn/douban_html_logs/search_9781250047236_title.html"
+    }
   },
   "9787572208522": {
     "ISBN": "9787572208522",
@@ -61,7 +123,17 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "douban_url": null,
+      "douban_title": null,
+      "douban_average": "7.6",
+      "douban_votes": "57",
+      "douban_source": "search",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9787572208522",
+      "search_html": "/workspaces/The-NB4-Math-Monthly-test-Damn/douban_html_logs/search_9787572208522.html"
+    }
   },
   "9781594483073": {
     "ISBN": "9781594483073",
@@ -69,7 +141,17 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "douban_url": null,
+      "douban_title": null,
+      "douban_average": "8.9",
+      "douban_votes": "128",
+      "douban_source": "search",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9781594483073",
+      "search_html": "/workspaces/The-NB4-Math-Monthly-test-Damn/douban_html_logs/search_9781594483073.html"
+    }
   },
   "9781847496126": {
     "ISBN": "9781847496126",
@@ -77,7 +159,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=The+Canterville+Ghost+and+Other+Stories",
+      "search_html": "/workspaces/The-NB4-Math-Monthly-test-Damn/douban_html_logs/search_9781847496126_title.html"
+    }
   },
   "9780553380163": {
     "ISBN": "9780553380163",
@@ -85,7 +173,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780553380163&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780785839835": {
     "ISBN": "9780785839835",
@@ -93,7 +187,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780785839835&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780674017726": {
     "ISBN": "9780674017726",
@@ -101,7 +201,13 @@
     "averageRating": 4,
     "ratingsCount": 11,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780674017726&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781285465067": {
     "ISBN": "9781285465067",
@@ -109,7 +215,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781285465067&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780143108245": {
     "ISBN": "9780143108245",
@@ -117,7 +229,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780143108245&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780060736262": {
     "ISBN": "9780060736262",
@@ -125,7 +243,13 @@
     "averageRating": 4,
     "ratingsCount": 47,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780060736262&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9787513341790": {
     "ISBN": "9787513341790",
@@ -133,7 +257,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9787513341790&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9787213100970": {
     "ISBN": "9787213100970",
@@ -141,7 +271,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9787213100970&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781507202920": {
     "ISBN": "9781507202920",
@@ -149,7 +285,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781507202920&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780262681506": {
     "ISBN": "9780262681506",
@@ -157,7 +299,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780262681506&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781501173219": {
     "ISBN": "9781501173219",
@@ -165,7 +313,13 @@
     "averageRating": 4.5,
     "ratingsCount": 3,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781501173219&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781847494849": {
     "ISBN": "9781847494849",
@@ -173,7 +327,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781847494849&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781847496096": {
     "ISBN": "9781847496096",
@@ -181,7 +341,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781847496096&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781472106537": {
     "ISBN": "9781472106537",
@@ -189,7 +355,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781472106537&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780143036531": {
     "ISBN": "9780143036531",
@@ -197,7 +369,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780143036531&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780140449174": {
     "ISBN": "9780140449174",
@@ -205,7 +383,13 @@
     "averageRating": 4.5,
     "ratingsCount": 4,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780140449174&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780241629031": {
     "ISBN": "9780241629031",
@@ -213,7 +397,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780241629031&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781423418313": {
     "ISBN": "9781423418313",
@@ -221,7 +411,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781423418313&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780241226186": {
     "ISBN": "9780241226186",
@@ -229,7 +425,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780241226186&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780553212587": {
     "ISBN": "9780553212587",
@@ -237,7 +439,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780553212587&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781910689066": {
     "ISBN": "9781910689066",
@@ -245,7 +453,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781910689066&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780399588198": {
     "ISBN": "9780399588198",
@@ -253,7 +467,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780399588198&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780575094208": {
     "ISBN": "9780575094208",
@@ -261,7 +481,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780575094208&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780553211405": {
     "ISBN": "9780553211405",
@@ -269,7 +495,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780553211405&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780553212976": {
     "ISBN": "9780553212976",
@@ -277,7 +509,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780553212976&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780553213102": {
     "ISBN": "9780553213102",
@@ -285,7 +523,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780553213102&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9787519211202": {
     "ISBN": "9787519211202",
@@ -293,7 +537,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9787519211202&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780340980903": {
     "ISBN": "9780340980903",
@@ -301,7 +551,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780340980903&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780198393511": {
     "ISBN": "9780198393511",
@@ -309,7 +565,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780198393511&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781471899706": {
     "ISBN": "9781471899706",
@@ -317,7 +579,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781471899706&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781316646090": {
     "ISBN": "9781316646090",
@@ -325,7 +593,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": "No results"
+    "error": "No results",
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781316646090&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780571174379": {
     "ISBN": "9780571174379",
@@ -333,7 +607,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780571174379&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9783836548823": {
     "ISBN": "9783836548823",
@@ -341,7 +621,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9783836548823&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781907410512": {
     "ISBN": "9781907410512",
@@ -349,7 +635,13 @@
     "averageRating": 5,
     "ratingsCount": 1,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781907410512&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781473695993": {
     "ISBN": "9781473695993",
@@ -357,7 +649,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781473695993&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781912714278": {
     "ISBN": "9781912714278",
@@ -365,7 +663,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781912714278&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781108770187": {
     "ISBN": "9781108770187",
@@ -373,7 +677,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": "No results"
+    "error": "No results",
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781108770187&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780133917789": {
     "ISBN": "9780133917789",
@@ -381,7 +691,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9780133917789&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781009052658": {
     "ISBN": "9781009052658",
@@ -389,7 +705,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": "No results"
+    "error": "No results",
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781009052658&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9781316634950": {
     "ISBN": "9781316634950",
@@ -397,7 +719,13 @@
     "averageRating": 5,
     "ratingsCount": 1,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://book.douban.com/subject_search?search_text=9781316634950&cat=1001",
+      "search_html_snippet": "\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"edge\" />\n    <meta name=“renderer” content=“webkit”>\n    <meta name=\"referrer\" con"
+    }
   },
   "9780593098240": {
     "ISBN": "9780593098240",
@@ -405,7 +733,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9780593098240",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9780552998482": {
     "ISBN": "9780552998482",
@@ -413,7 +747,13 @@
     "averageRating": 4,
     "ratingsCount": 1,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9780552998482",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9780198807278": {
     "ISBN": "9780198807278",
@@ -421,7 +761,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9780198807278",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9781510421783": {
     "ISBN": "9781510421783",
@@ -429,7 +775,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9781510421783",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9781510421790": {
     "ISBN": "9781510421790",
@@ -437,7 +789,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9781510421790",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9780241298961": {
     "ISBN": "9780241298961",
@@ -445,7 +803,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9780241298961",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9780241410196": {
     "ISBN": "9780241410196",
@@ -453,7 +817,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9780241410196",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9780393319286": {
     "ISBN": "9780393319286",
@@ -461,7 +831,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9780393319286",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9789620447891": {
     "ISBN": "9789620447891",
@@ -469,7 +845,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9789620447891",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9783836505628": {
     "ISBN": "9783836505628",
@@ -477,7 +859,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9783836505628",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9780141978956": {
     "ISBN": "9780141978956",
@@ -485,7 +873,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9780141978956",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9781983184529": {
     "ISBN": "9781983184529",
@@ -493,7 +887,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9781983184529",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9781524746728": {
     "ISBN": "9781524746728",
@@ -501,7 +901,13 @@
     "averageRating": 1,
     "ratingsCount": 1,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9781524746728",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9780679744085": {
     "ISBN": "9780679744085",
@@ -509,7 +915,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9780679744085",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9781847496317": {
     "ISBN": "9781847496317",
@@ -517,7 +929,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9781847496317",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9783836534321": {
     "ISBN": "9783836534321",
@@ -525,7 +943,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9783836534321",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9780340960196": {
     "ISBN": "9780340960196",
@@ -533,7 +957,13 @@
     "averageRating": 4,
     "ratingsCount": 1,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9780340960196",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9780441172719": {
     "ISBN": "9780441172719",
@@ -541,7 +971,13 @@
     "averageRating": 4,
     "ratingsCount": 1,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9780441172719",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9781108847063": {
     "ISBN": "9781108847063",
@@ -549,7 +985,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": "No results"
+    "error": "No results",
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9781108847063",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9781984854858": {
     "ISBN": "9781984854858",
@@ -557,7 +999,13 @@
     "averageRating": null,
     "ratingsCount": null,
     "status_code": 200,
-    "error": null
+    "error": null,
+    "douban": {
+      "status_code": 200,
+      "error": "no_match",
+      "search_url": "https://www.douban.com/search?cat=1001&q=9781984854858",
+      "search_html_snippet": "<!DOCTYPE html>\n<html lang=\"zh-CN\" class=\"ua-linux ua-webkit\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta name=\"renderer\" content=\"webkit\">\n    <meta name"
+    }
   },
   "9780099511021": {
     "ISBN": "9780099511021",
@@ -8425,11 +8873,8 @@
   },
   "9787521731460": {
     "ISBN": "9787521731460",
-    "title": null,
-    "averageRating": null,
-    "ratingsCount": null,
     "status_code": 429,
-    "error": "429 after 4 attempts"
+    "error": "Status 429"
   },
   "7100059453": {
     "ISBN": "7100059453",
