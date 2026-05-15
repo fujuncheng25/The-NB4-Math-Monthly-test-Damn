@@ -16,6 +16,12 @@ pip3 install -r requirements.txt
 python3 scripts/fetch_douban.py --limit 50 --delay 1.5 --force
 ```
 
+Gentle mode with jitter and 403-only retry:
+
+```bash
+python3 scripts/fetch_douban.py --only-403 --limit 200 --gentle --retry-403 1
+```
+
 ## Export CSV
 
 ```bash

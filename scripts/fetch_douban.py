@@ -11,6 +11,7 @@ import argparse
 import json
 import time
 import sys
+import random
 from pathlib import Path
 from urllib.parse import quote_plus
 
@@ -63,21 +64,31 @@ def safe_key(value):
     return re.sub(r"[^0-9A-Za-z_-]+", "_", str(value))
 
 
-def search_subject(query, log_key):
+def search_subject(query, log_key, retry_403=0, min_delay=None, max_delay=None):
     q = quote_plus(str(query))
     url = f"https://www.douban.com/search?cat=1001&q={q}"
     search_path = LOG_DIR / f"search_{safe_key(log_key)}.html"
     if search_path.exists():
         with open(search_path, "r", encoding="utf-8") as f:
             return f.read(), 200, url, search_path
-    resp = requests.get(url, headers=HEADERS, timeout=20)
-    if resp.status_code != 200:
+    attempts = 0
+    while True:
+        resp = requests.get(url, headers=HEADERS, timeout=20)
+        if resp.status_code == 200:
+            with open(search_path, "w", encoding="utf-8") as f:
+                f.write(resp.text)
+            append_manifest("search", log_key, url, search_path)
+            return resp.text, resp.status_code, url, search_path
+
+        if resp.status_code in (403, 429) and attempts < retry_403:
+            attempts += 1
+            backoff = 10 * attempts
+            if min_delay is not None and max_delay is not None:
+                backoff += random.uniform(min_delay, max_delay)
+            time.sleep(backoff)
+            continue
+
         return None, resp.status_code, resp.text, search_path
-    # save search html
-    with open(search_path, "w", encoding="utf-8") as f:
-        f.write(resp.text)
-    append_manifest("search", log_key, url, search_path)
-    return resp.text, resp.status_code, url, search_path
 
 
 def extract_one_decimal(text):
@@ -123,7 +134,7 @@ def parse_search_html(html):
     }
 
 
-def fetch_subject_page(url):
+def fetch_subject_page(url, retry_403=0, min_delay=None, max_delay=None):
     # derive filename from url
     m = re.search(r"/subject/(\d+)", url)
     subj_id = m.group(1) if m else None
@@ -131,12 +142,22 @@ def fetch_subject_page(url):
     if subj_path and subj_path.exists():
         with open(subj_path, "r", encoding="utf-8") as f:
             return 200, f.read()
-    resp = requests.get(url, headers=HEADERS, timeout=20)
-    if resp.status_code == 200 and subj_path:
-        with open(subj_path, "w", encoding="utf-8") as f:
-            f.write(resp.text)
-        append_manifest("subject", subj_id, url, subj_path)
-    return resp.status_code, resp.text
+    attempts = 0
+    while True:
+        resp = requests.get(url, headers=HEADERS, timeout=20)
+        if resp.status_code == 200 and subj_path:
+            with open(subj_path, "w", encoding="utf-8") as f:
+                f.write(resp.text)
+            append_manifest("subject", subj_id, url, subj_path)
+            return resp.status_code, resp.text
+        if resp.status_code in (403, 429) and attempts < retry_403:
+            attempts += 1
+            backoff = 10 * attempts
+            if min_delay is not None and max_delay is not None:
+                backoff += random.uniform(min_delay, max_delay)
+            time.sleep(backoff)
+            continue
+        return resp.status_code, resp.text
 
 
 def parse_subject_page(html):
@@ -191,11 +212,26 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=50)
     parser.add_argument("--delay", type=float, default=1.5)
+    parser.add_argument("--min-delay", type=float, default=None)
+    parser.add_argument("--max-delay", type=float, default=None)
     parser.add_argument("--checkpoint-interval", type=int, default=10)
+    parser.add_argument("--retry-403", type=int, default=1)
+    parser.add_argument("--only-403", action="store_true")
+    parser.add_argument("--gentle", action="store_true")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
 
     cache = load_cache()
+
+    if args.gentle and args.min_delay is None and args.max_delay is None:
+        args.min_delay = 4.0
+        args.max_delay = 7.0
+
+    def sleep_between():
+        if args.min_delay is not None and args.max_delay is not None:
+            time.sleep(random.uniform(args.min_delay, args.max_delay))
+        else:
+            time.sleep(args.delay)
 
     def needs_refresh(entry):
         if args.force:
@@ -209,8 +245,15 @@ def main():
             return True
         return False
 
+    def is_403(entry):
+        db = entry.get('douban') or {}
+        return db.get('status_code') == 403 or db.get('error') == 'search_failed'
+
     # collect ISBNs missing douban info or needing refresh
-    isbns = [k for k, v in cache.items() if needs_refresh(v)]
+    if args.only_403:
+        isbns = [k for k, v in cache.items() if is_403(v)]
+    else:
+        isbns = [k for k, v in cache.items() if needs_refresh(v)]
     if not isbns:
         print("No ISBNs missing 'douban' data in cache.")
         return
@@ -221,7 +264,13 @@ def main():
     for isbn in to_process:
         print(f"[{processed+1}/{len(to_process)}] ISBN: {isbn}")
         try:
-            search_html, status, search_url, search_path = search_subject(isbn, isbn)
+            search_html, status, search_url, search_path = search_subject(
+                isbn,
+                isbn,
+                retry_403=args.retry_403,
+                min_delay=args.min_delay,
+                max_delay=args.max_delay,
+            )
             if search_html is None:
                 cache.setdefault(isbn, {})['douban'] = {
                     'status_code': status,
@@ -231,7 +280,7 @@ def main():
                 }
                 print(f" search failed status={status}")
                 save_cache(cache)
-                time.sleep(args.delay)
+                sleep_between()
                 processed += 1
                 continue
 
@@ -241,7 +290,13 @@ def main():
             if not info.get('rating'):
                 title_query = cache.get(isbn, {}).get('title') or cache.get(isbn, {}).get('gbooks_title')
                 if title_query:
-                    search_html2, status2, search_url2, search_path2 = search_subject(title_query, f"{isbn}_title")
+                    search_html2, status2, search_url2, search_path2 = search_subject(
+                        title_query,
+                        f"{isbn}_title",
+                        retry_403=args.retry_403,
+                        min_delay=args.min_delay,
+                        max_delay=args.max_delay,
+                    )
                     if search_html2:
                         info = parse_search_html(search_html2)
                         search_url = search_url2
@@ -272,16 +327,21 @@ def main():
                     }
                     print(" no match on search page")
                     save_cache(cache)
-                    time.sleep(args.delay)
+                    sleep_between()
                     processed += 1
                     continue
 
-                code, subj_html = fetch_subject_page(href)
+                code, subj_html = fetch_subject_page(
+                    href,
+                    retry_403=args.retry_403,
+                    min_delay=args.min_delay,
+                    max_delay=args.max_delay,
+                )
                 if code != 200:
                     cache.setdefault(isbn, {})['douban'] = {'status_code': code, 'error': 'subject_fetch_failed', 'subject_url': href}
                     print(f" subject fetch failed {code}")
                     save_cache(cache)
-                    time.sleep(args.delay)
+                    sleep_between()
                     processed += 1
                     continue
 
@@ -303,7 +363,7 @@ def main():
                 save_cache(cache)
                 print(" checkpoint saved")
 
-            time.sleep(args.delay)
+            sleep_between()
 
         except KeyboardInterrupt:
             print("Interrupted by user, saving cache and exiting")
@@ -313,7 +373,7 @@ def main():
             print(f"Unexpected error for {isbn}: {e}")
             cache.setdefault(isbn, {})['douban'] = {'status_code': 0, 'error': str(e)}
             save_cache(cache)
-            time.sleep(args.delay)
+            sleep_between()
             processed += 1
 
     # final save
