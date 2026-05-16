@@ -1,0 +1,166 @@
+{
+  "key_used": true,
+  "queried": 20,
+  "results": [
+    {
+      "ISBN": "9787520107921",
+      "title": "1453",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9787010130033",
+      "title": "1844年经济学哲学手稿",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9787532765522",
+      "title": "1973年的弹子球",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9787508691664",
+      "title": "24个比利",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9787218155913",
+      "title": "3000年人类迁徙史",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9781911216865",
+      "title": "50 Things to Do with a Penknife",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9781250047236",
+      "title": "55 Successful Harvard Law School Application Essays",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9787572208522",
+      "title": "5分钟怪诞数学",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9781594483073",
+      "title": "A Thousand Splendid Suns",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9781847496126",
+      "title": "The Canterville Ghost and Other Stories",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9780553380163",
+      "title": "A Brief History of Time",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9780785839835",
+      "title": "A Tale of Two Cities",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9780674017726",
+      "title": "A Theory of Justice",
+      "averageRating": 4,
+      "ratingsCount": 11,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9781285465067",
+      "title": "A Glossary of Literary Terms",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9780143108245",
+      "title": "A Portrait of the Artist as a Young Man",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9780060736262",
+      "title": "A Tree Grows in Brooklyn",
+      "averageRating": 4,
+      "ratingsCount": 47,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9787513341790",
+      "title": "ABC谋杀案",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9787213100970",
+      "title": "AI 经济",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9781507202920",
+      "title": "Accounting 101",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "ISBN": "9780262681506",
+      "title": "Advice for a Young Investigator",
+      "averageRating": null,
+      "ratingsCount": null,
+      "status_code": 200,
+      "error": null
+    }
+  ]
+}
